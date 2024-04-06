@@ -22,7 +22,7 @@ function Myhome() {
             
         </div>
         <div className='btn-group'>
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ckanandu@gmail.com" className='btn'>Hire</a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ckanandu@gmail.com" className='btn'>Download CV</a>
 
             <a href="#contact" className='btn'>Contact</a>
         </div>

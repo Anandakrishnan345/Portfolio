@@ -5,6 +5,7 @@ import Myeducation from "./Myeducation";
 import Myservice from "./Myservice";
 import Mycontact from "./Mycontact";
 import Myfooter from "./Myfooter";
+import Mycomponent from "./Mycomponent";
 
 
 function Myportfolio() {
@@ -31,6 +32,7 @@ function Myportfolio() {
     <Myservice/>
     <Mycontact/>
     <Myfooter/>
+    <Mycomponent/>
     </>
     
   );
