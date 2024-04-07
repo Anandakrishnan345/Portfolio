@@ -5,14 +5,14 @@ import Myeducation from "./Myeducation";
 import Myservice from "./Myservice";
 import Mycontact from "./Mycontact";
 import Myfooter from "./Myfooter";
-import Mycomponent from "./Mycomponent";
+
 
 
 function Myportfolio() {
   return (
     <>
     <header className="header">
-      <a href="#home" className="logo">
+      <a href="#home" className="logo text-4xl md:text-5xl">
         Ananda <span>Krishnan</span>
       </a>
 
@@ -32,7 +32,7 @@ function Myportfolio() {
     <Myservice/>
     <Mycontact/>
     <Myfooter/>
-    <Mycomponent/>
+    
     </>
     
   );

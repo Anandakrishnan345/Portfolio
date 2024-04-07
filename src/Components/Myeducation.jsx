@@ -3,7 +3,7 @@ import React from "react";
 function Myeducation() {
   return (
     <section className="education" id="education">
-      <h2 className="heading">Education</h2>
+      <h2 className="heading font-bold sm:text-9xl text-8xl">Education</h2>
 
       <div className="timeline-items">
         <div className="timeline-item">

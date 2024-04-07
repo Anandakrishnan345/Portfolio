@@ -1,71 +1,69 @@
 import React from "react";
+import Mymongodbicon from "./Mymongodbicon";
+import Myexpressicon from "./Myexpressicon";
+import Myreactjsicon from "./Myreactjsicon";
+import Mynodejsicon from "./Mynodejsicon";
+import Mybootstrapicon from "./Mybootstrapicon";
+import Mytailwindcssicon from "./Mytailwindcssicon";
 
 function Myservice(){
     return(
-  //   <section className="services" id="skills">
-  //   <h2 className="heading">Skills</h2>
-  //   <div className="services-container">
-  //     <div className="service-box">
-  //       <div className="service-info">
-  //         <h4>Frontend development</h4>
-  //         <p>
-  //         I specialize in building responsive and interactive user interfaces using React.js. Additionally, I am well-versed in modern CSS frameworks such as Bootstrap and Tailwind CSS, enabling me to create visually stunning and intuitive user experiences..
-  //         </p>
-  //       </div>
-  //     </div>
 
-  //     <div className="service-box">
-  //       <div className="service-info">
-  //         <h4>Backend development</h4>
-  //         <p>
-  //         I'm skilled in building RESTful APIs and server-side applications using Node.js and Express.js. I have knowledge  in database design and management using MongoDB, including schema design, indexing, and performance optimization.
-  //         </p>
-  //       </div>
-  //     </div>
-
-  //     <div className="service-box">
-  //       <div className="service-info">
-  //         <h4>MERN stack Development</h4>
-  //         <p>
-                
-  //           Skilled in frontend and backend technologies, I architect and deliver end-to-end solutions, specializing in MERN stack development. I oversee the entire development lifecycle, ensuring smooth integration and peak performance. Thriving in collaborative environments, I actively engage with cross-functional teams to drive projects to successful outcomes.
-  //         </p>
-  //       </div>
-  //     </div>
-
-
-  //   </div>
-  // </section>
 
   <section className="services " id="skills">
-          <h2 className="heading  font-bold text-white mb-8 sm:mb-10">Skills</h2>
-          <div className="services-container grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-10">
-            <div className="service-box rounded-lg  border-4 border-transparent hover:bg-white hover:text-black transition-all duration-300 cursor-pointer">
-              <div className="service-info p-6 sm:p-1">
-                <h4 className="text-2xl md:text-3xl font-bold mb-4 sm:mb-6">Frontend development</h4>
-                <p className="text-base sm:text-sm">
-                I specialize in building responsive and interactive user interfaces using React.js. Additionally, I am well-versed in modern CSS frameworks such as Bootstrap and Tailwind CSS, enabling me to create visually stunning and intuitive user experiences..
-                </p>
-              </div>
+          <h2 className="heading  font-bold text-white mb-8 sm:mb-10 sm:text-9xl text-8xl">Skills</h2>
+          <div className="services-container grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12">
+           
+           
+
+            <div className="service-box rounded-lg border-4 border-transparent hover:bg-white hover:text-black transition-all duration-300 cursor-pointer  text-center ">
+           <div className="flex  justify-center"> <Mymongodbicon size={250}  /> </div> 
+            <div className="text-center font-bold text-base text-xl p-4"> MongoDB </div>
+              {/* <div className="service-info p-6 sm:p-1">
+                
+              </div> */}
             </div>
-      
-            <div className="service-box rounded-lg border-4 border-transparent hover:bg-white hover:text-black transition-all duration-300 cursor-pointer" >
-              <div className="service-info p-6 sm:p-1">
-                <h4 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">Backend development</h4>
-                <p className="text-base sm:text-lg">
-                I'm skilled in building RESTful APIs and server-side applications using Node.js and Express.js. I have knowledge  in database design and management using MongoDB, including schema design, indexing, and performance optimization.
-                </p>
-              </div>
+
+            <div className="service-box rounded-lg border-4 border-transparent hover:bg-white hover:text-black transition-all duration-300 cursor-pointer  text-center ">
+           <div className="flex  justify-center"> <Myexpressicon size={250}  /> </div> 
+            <div className="text-center font-bold text-base text-xl"> Express js </div>
+              {/* <div className="service-info p-6 sm:p-1">
+                
+              </div> */}
             </div>
-      
-            <div className="service-box rounded-lg border-4 border-transparent hover:bg-white hover:text-black transition-all duration-300 cursor-pointer">
-              <div className="service-info p-6 sm:p-1">
-                <h4 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">MERN stack Development</h4>
-                <div className="text-lg sm:text-lg font-bold">
-                      
-                  Skilled in frontend and backend technologies, I architect and deliver end-to-end solutions, specializing in MERN stack development. I oversee the entire development lifecycle, ensuring smooth integration and peak performance. Thriving in collaborative environments, I actively engage with cross-functional teams to drive projects to successful outcomes.
-                </div>
-              </div>
+
+            <div className="service-box rounded-lg border-4 border-transparent hover:bg-white hover:text-black transition-all duration-300 cursor-pointer  text-center ">
+           <div className="flex  justify-center"> <Myreactjsicon size={250}  /> </div> 
+            <div className="text-center font-bold p-4 text-base text-xl"> React js </div>
+              {/* <div className="service-info p-6 sm:p-1">
+                
+            //   </div> */}
+             </div>
+
+   
+
+            <div className="service-box rounded-lg border-4 border-transparent hover:bg-white hover:text-black transition-all duration-300 cursor-pointer  text-center ">
+           <div className="flex  justify-center"> <Mynodejsicon size={250}  /> </div> 
+            <div className="text-center font-bold p-4 text-base text-xl"> Node js </div>
+              {/* <div className="service-info p-6 sm:p-1">
+                
+              </div> */}
+            </div>
+
+            <div className="service-box rounded-lg border-4 border-transparent hover:bg-white hover:text-black transition-all duration-300 cursor-pointer  text-center ">
+           <div className="flex  justify-center p-2"> <Mybootstrapicon size={250}  /> </div> 
+            <div className="text-center p-2 font-bold text-xl"> Bootstrap </div>
+              {/* <div className="service-info p-6 sm:p-1">
+                
+              </div> */}
+            </div>
+
+            <div className="service-box rounded-lg border-4 border-transparent hover:bg-white hover:text-black transition-all duration-300 cursor-pointer  text-center ">
+           <div className="flex  justify-center"> <Mytailwindcssicon size={250}  /> </div> 
+            <div className="text-center font-bold text-xl"> TailwindCss </div>
+              {/* <div className="service-info p-6 sm:p-1">
+                
+              </div> */}
             </div>
       
       
