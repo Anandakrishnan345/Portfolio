@@ -2,7 +2,8 @@
 
     import React, { useState } from "react";
 import emailjs from "emailjs-com";
-
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 
@@ -63,6 +64,7 @@ function Mycontact() {
           subject: "",
           message: ""
         });
+        toast.success("Email sent successfully!");
       })
       .catch((error) => {
         console.error('Email sending failed:', error.text);

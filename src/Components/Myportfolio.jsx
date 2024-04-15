@@ -5,13 +5,14 @@ import Myeducation from "./Myeducation";
 import Myservice from "./Myservice";
 import Mycontact from "./Mycontact";
 import Myfooter from "./Myfooter";
+import Navbar from "./Navbar";
 
 
 
 function Myportfolio() {
   return (
     <>
-    <header className="header">
+    {/* <header className="header">
       <a href="#home" className="logo text-4xl md:text-5xl">
         Ananda <span>Krishnan</span>
       </a>
@@ -26,7 +27,8 @@ function Myportfolio() {
         <a href="#contact">Contact</a>
       </nav>
       
-    </header>
+    </header> */}
+    <Navbar/>
     <Myhome/>
     <Myeducation/>
     <Myservice/>
