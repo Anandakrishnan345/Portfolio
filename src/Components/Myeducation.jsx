@@ -12,7 +12,7 @@ function Myeducation() {
             <div className="timeline-content">
               <h3>High Secondary Education</h3>
               <p>
-                At kerndriya vidyalaya,I.N.S Dronacharya,mundamveli,
+                At kendriya vidyalaya,I.N.S Dronacharya,mundamveli,
                 kochi-I pursued the stream of Computer Science. This period was instrumental in developing my foundational knowledge and skills in computer science and related disciplines.
               </p>
             </div>
